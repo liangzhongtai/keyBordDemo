@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/root"
+    >
+    <TextView
+        android:id="@+id/tv_nav"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="14dp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:background="@color/colorPrimary"
+        android:text="MainActivity"
+        />
+    <Button
+        android:id="@+id/btn_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Second_Activity"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_edit"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_gravity="bottom"
+        android:padding="7dp"
+        android:background="@color/colorccBlack"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:padding="7dp"
+            android:textColorHint="@color/colorccBlack"
+            android:hint="Please input here!"
+            android:background="@android:color/white"
+            />
+    </RelativeLayout>
+
+</FrameLayout>
